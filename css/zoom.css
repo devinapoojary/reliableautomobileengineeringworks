@@ -1,0 +1,19 @@
+.img-container{
+    
+    height: auto;
+    margin: 10px auto;
+    overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/
+    position: relative;
+    width: 600px;
+}
+
+
+.img-container img {
+  width: 100%;
+  transition: all 1s;
+}
+
+.img-container:hover img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
